@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HuffmanClass</class>
+ <widget class="QMainWindow" name="HuffmanClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1041</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Huffman Codec</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextEdit" name="text_input">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>941</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Note: Only alphabets are valid.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>371</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Please input the text to be encoded:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="text_statistics">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>230</y>
+      <width>101</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>a: 17...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_statistics">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Statistics:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_codec">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>190</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Codec:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_transcode">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>190</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Transcode: Encode</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="text_codec">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>230</y>
+      <width>141</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>a: 011...</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="text_output">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>230</y>
+      <width>641</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Encoded or decoded text will be displayed here.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="huffman.qrc"/>
+ </resources>
+ <connections/>
+</ui>
